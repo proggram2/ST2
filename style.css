@@ -34,3 +34,9 @@ html {
 .Invs {
   color: rgba(255, 255, 255, 0);
 }
+
+@media only screen and (max-height: 600px) {
+  body {
+    height: 600px;
+  }
+}
