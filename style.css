@@ -1,0 +1,36 @@
+body,
+html {
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 900;
+}
+
+
+.flex-container {
+  width: 750px;
+  position: relative;
+  left: 300px;
+  top: 150px;
+}
+
+
+.days {
+  word-spacing: 65px;
+}
+
+.subjects {
+  word-spacing: 65px;
+}
+.subjectsE {
+  word-spacing: 30px;
+}
+.subjects2 {
+  word-spacing: 70px;
+}
+.subjects3 {
+  word-spacing: 20px;
+}
+
+.Invs {
+  color: rgba(255, 255, 255, 0);
+}
