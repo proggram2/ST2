@@ -1,10 +1,19 @@
 body,
 html {
-    font-size: 20px;
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-weight: 900;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 900;
+}
+@media only screen and (max-height: 600px) {
+  body {
+    height: 600px;
+  }
 }
 
+br {
+  display: block;
+  margin-bottom: 5px;
+}
 
 .flex-container {
   width: 750px;
@@ -15,7 +24,7 @@ html {
 
 
 .days {
-  word-spacing: 65px;
+  word-spacing: 60px;
 }
 
 .subjects {
@@ -35,8 +44,12 @@ html {
   color: rgba(255, 255, 255, 0);
 }
 
-@media only screen and (max-height: 600px) {
-  body {
-    height: 600px;
-  }
+#parent {
+  position: absolute;
+  left: 0%;
+  display: flex;
+}
+
+.IT {
+  padding-right: 10px;
 }
