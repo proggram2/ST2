@@ -11,7 +11,6 @@ html {
   }
 }
 
-
 br {
   display: block;
   margin-bottom: 5px;
@@ -58,4 +57,17 @@ br {
 
 .special-needs {
   padding-left:  25px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0 1em;
+}
+
+td {
+
+  font-family: Verdana,Geneva,sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
 }
