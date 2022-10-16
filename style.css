@@ -5,6 +5,13 @@ html {
   font-weight: 900;
 }
 
+@media only screen and (min-height: 600px){
+  body {
+      height: 600px;
+  }
+}
+
+
 br {
   display: block;
   margin-bottom: 5px;
