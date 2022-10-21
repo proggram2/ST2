@@ -5,30 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ΣΤ2 προγραμμα</title>
-    <!-- <link rel="stylesheet" href="https://vaggelisproggraming.github.io/e2proggram/styles.css"> -->
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./colorschemes.css">
+    <link rel="shortcut icon" href="./images/ST2.jpg" type="image/x-icon">
 </head>
 <body>
  <div class="flex-container">
-    <ul>
-        <button id="dark-mode-toggle" class="dark-mode-toggle">
-          <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496"><path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/></svg>
-        </button> 
+
+  <div class="buttons">
+    <button id="dark-mode-toggle" class="dark-mode-toggle">
+      <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496"><path fill="currentColor" d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z" transform="translate(-8 -8)"/></svg>
+    </button> 
+    <button onclick="document.getElementById('id01').style.display='block'" class="setting" id="myBtn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+        <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+      </svg>    
+      </button>    
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p class="settings">αλλες ρυθμισεις</p>
+          <button class="modal_buttons" onclick="window.location.href='breaks.html'" class="breaks">προγραμμα με διαλείμματα</button>
+          <button class="modal_buttons" onclick="window.location.href='hobby.html'" class="subjects">το προγραμμα με τα δικα σου χόμπι</button>
+          <button class="back" onclick="window.location.href='index.html'" class="subjects">πίσω</button>
+        </div>
+
+      </div>
+
+  </div>
+  
+        
+
         <br><br><br><br><br><br>
-<table style="width:100%">
+<table class="proggram-content" style="width:100%">
   <tr>
-    <th>δευτέρα <br><br><br></th>
-    <th>τρίτη <br><br><br></th>
-    <th>τετάρτη <br><br><br></th>
-    <th>πέμπτη <br><br><br></th>
-    <th>παρασκευή <br><br><br></th>
+    <th>Δευτέρα <br><br><br></th>
+    <th>Τρίτη <br><br><br></th>
+    <th>Τετάρτη <br><br><br></th>
+    <th>Πέμπτη <br><br><br></th>
+    <th>Παρασκευή <br><br><br></th>
   </tr>
   <tr>
     <td>1.γλώσσα</td>
     <td>γλώσσα</td>
     <td>γλώσσα</td>
-    <td>γυμναστική</td>
+    <td>γλώσσα</td>
     <td>γαλλικά</td>
   </tr>
   <tr>
@@ -48,22 +73,22 @@
   <tr>
     <td>4.αγωγή</td>
     <td>μαθηματικά</td>
-    <td>φυσική</td>
-    <td>γλώσσα</td>
+    <td>αγγλικά</td>
+    <td>γεωγραφία</td>
     <td>αγγλικά</td>
   </tr>
   <tr>
     <td>5.πληροφορική</td>
     <td>θρησκευτικά</td>
-    <td>αγγλικά</td>
+    <td>μουσική</td>
     <td>ιστορία</td>
     <td>ιστορία</td>
   </tr>
   <tr>
     <td>6.φυσική</td>
     <td>φυσική</td>
-    <td>γεωγραφία</td>
-    <td>δεξιότιτες</td>
+    <td>φυσική</td>
+    <td>γυμναστική</td>
     <td>δεξιότιτες</td>
   </tr>
 </table>
